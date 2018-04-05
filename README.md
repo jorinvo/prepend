@@ -1,5 +1,7 @@
 # Prepend
 
+[![Build Status](https://travis-ci.org/jorinvo/prepend.svg?branch=master)](https://travis-ci.org/jorinvo/prepend)
+
 *This project is mostly for learning purposes.*
 
 `prepend` prepends one or more command line arguments given to it to each line from stdin and writes that to stdout.
