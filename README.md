@@ -39,6 +39,7 @@ I like cats
 
 - Start `mix test.watch` and develop TDD
 - Or run the tests only once with `mix test`
+- Property tests can be run with `mix test --only property`
 - To give the code a try in the REPL use `iex -S mix`. Try this:
 
 ```
