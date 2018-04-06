@@ -42,7 +42,7 @@ I like cats
 - Property tests can be run with `mix test --only property`
 - To give the code a try in the REPL use `iex -S mix`. Try this:
 
-```
+``` elixir
 ["one", "two"] |> Prepend.stream_lines("$ ") |> Enum.to_list
 ```
 
