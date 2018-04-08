@@ -24,9 +24,9 @@ defmodule Prepend.MixProject do
   defp deps do
     [
       {:stream_data, "~> 0.4.2", only: [:dev, :test], runtime: false},
+      {:credo, "~> 0.9.0-rc1", only: :dev, runtime: false},
       {:mix_test_watch, "~> 0.5", only: :dev, runtime: false},
-      {:credo, "~> 0.9.0-rc1", only: [:dev, :test], runtime: false},
-      {:dialyxir, "~> 0.5", only: [:dev], runtime: false}
+      {:dialyxir, "~> 0.5", only: :dev, runtime: false}
     ]
   end
 end

@@ -10,8 +10,7 @@
 ## Install
 
 - Make sure you have [Elixir](https://elixir-lang.org/) installed. On a Mac that is as quick as `brew install elixir`
-- Run `mix deps.get`
-- Run `mix escript.build`
+- Run `mix deps.get` and `mix escript.build` or combine them as `mix do deps.get, escript.build`
 
 
 ## Usage
@@ -25,7 +24,7 @@ I like pizza
 I like cats
 ```
 
-Or run prepend directly via mix:
+Or from within the repo, run prepend directly via mix:
 
 ```
 $ echo -e "ice cream\npizza\ncats" | mix prepend "I like "
@@ -46,8 +45,8 @@ I like cats
 ["one", "two"] |> Prepend.stream_lines("$ ") |> Enum.to_list
 ```
 
-- Format your code using `mix format`
-- Lint the code using `mix credo` and `mix dialyzer`
+- Format code using `mix format`
+- Lint code using `mix credo` and `mix dialyzer`
 
 
 ## License
